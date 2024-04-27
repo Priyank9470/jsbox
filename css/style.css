@@ -1,0 +1,36 @@
+#displayNumber {
+  display: flex;
+  gap: 5px;
+  width: 38%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+#displayNumber .box {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.evenNum {
+  background-color: green;
+}
+
+#caption-container {
+  display: none;
+}
+.captions .primeCaption {
+  background-color: red;
+  height: 30px;
+  width: 30px;
+}
+.captions .evenCaption {
+  background-color: #00a500bf;
+  height: 30px;
+  width: 30px;
+}
+.captions .oddCaption {
+  background-color: #ff8100;
+  height: 30px;
+  width: 30px;
+}
